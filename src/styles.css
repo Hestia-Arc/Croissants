@@ -1,0 +1,61 @@
+/* Resets */
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* Body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background-color: #f3f3f3; */
+    padding: 1.5rem;
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    
+}
+
+/* CSS Variables */
+:root {
+    --primary-color: #0E625F;
+    --secondary-color: ;
+    --normal-font: ;
+    --bold-font: ;
+}
+
+/* Utilities */
+.text-centered {
+    text-align: center;
+}
+.link {
+    text-decoration: none;
+    color: rgb(49, 48, 48);
+}
+.link:hover {
+    opacity: 0.7;
+}
+
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.nav-tag {
+
+}
+.nav-menu {
+    display: flex;
+    margin: 1.3rem 0;
+}
+ul {
+    padding-inline-start: 0;
+}
+li {
+    list-style-type: none;
+    margin: 0 7px;
+}
